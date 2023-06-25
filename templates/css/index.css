@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: black;
+}
+nav{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.61);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem;
+    gap: 1rem;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    padding: 0rem 1rem;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0rem 1rem;
+    gap: 1rem;
+    font-size: 1.1123rem;
+}
+.menu li a{
+    text-decoration: none;
+    color: rgb(173, 172, 172);
+}
+.btns{
+    display: flex;
+    align-items: center;
+    width: 17vw;
+    justify-content: center;
+    gap: 1rem;
+}
+.btns button{
+    background: transparent;
+    border: 1px solid white;
+    padding: 0.6rem 1rem;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.btns .join{
+    border: 1px solid red;
+}
